@@ -20,7 +20,7 @@ below move up. Each player's choices are saved in SQLite or MySQL.
 
 - Paper 1.21.7 or newer (tested on 1.21.7, 26.1.2, 26.2 and 26.3)
 - Folia 26.x (tested on Canvas 26.3, a Folia fork)
-- Java 21 or newer
+- Java 25 or newer on 26.x servers, Java 21 or newer on 1.21.x servers
 - [PlaceholderAPI](https://modrinth.com/plugin/placeholderapi) for placeholders (optional)
 
 The default config uses these PlaceholderAPI expansions:
