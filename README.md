@@ -115,7 +115,7 @@ setting.
 
 ## Building
 
-Requires JDK 21 or newer and Maven.
+Requires JDK 25 or newer and Maven.
 
 ```
 mvn package
