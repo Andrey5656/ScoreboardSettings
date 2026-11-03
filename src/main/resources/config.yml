@@ -1,0 +1,49 @@
+command: sbsettings
+aliases: []
+
+storage:
+  type: sqlite
+  mysql:
+    host: localhost
+    port: 3306
+    database: minecraft
+    username: root
+    password: ""
+
+scoreboard:
+  update-ticks: 20
+  title: "&f%player_name%"
+  lines:
+    - "&#00FF11$ &f%vault_eco_balance_formatted%"
+    - "&#FF0000🗡 &f%statistic_player_kills%"
+    - "&#FA7600☠ &f%statistic_deaths%"
+    - "&#FFE400⌚ &f%statistic_time_played%"
+
+dialog:
+  title: "Settings - Scoreboard"
+  on: "&aON"
+  off: "&cOFF"
+  columns: 1
+  button-width: 250
+  buttons:
+    scoreboard:
+      text: "Scoreboard: %state%"
+      row: all
+    money:
+      text: "Show Money: %state%"
+      row: 1
+    kills:
+      text: "Show Kills: %state%"
+      row: 2
+    deaths:
+      text: "Show Deaths: %state%"
+      row: 3
+    playtime:
+      text: "Show Playtime: %state%"
+      row: 4
+  close:
+    text: "Close"
+    command: ""
+
+messages:
+  reloaded: "&aScoreboardSettings reloaded."
