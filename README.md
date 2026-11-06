@@ -29,8 +29,9 @@ The default config uses these PlaceholderAPI expansions:
 /papi ecloud download Player
 /papi ecloud download Vault
 /papi ecloud download Statistic
-/papi reload
 ```
+
+Then run `/papi reload`.
 
 ## Installation
 
